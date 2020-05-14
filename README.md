@@ -7,7 +7,7 @@ Desenvolvimento de uma estrutura de e-commerce usando node com express, ejs, kne
 - Montar views com o ejs
 - Usar Nodejs como tecnologia de back-end.
 
-Tecnologias:
+# Tecnologias:
 - Node.js
 - ejs
 - Knex
