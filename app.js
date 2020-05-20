@@ -9,7 +9,7 @@ const init = db => {
     const session = require('express-session')
 
     app.use(bodyParser.json({ extended: true }))
-    app.use(bodyParser.urlencoded())
+    app.use(bodyParser.urlencoded({ extended: true }))
     
     app.use(session({
         secret: 'MyDevShopRulez!',
